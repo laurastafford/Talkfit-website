@@ -1,0 +1,217 @@
+.header{ /*This is for all the pages */
+    height: 20vh;
+    background-color: #DBE2F4;
+}
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+}
+.logo{ /*This will go in all of the pages at the top*/
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main{
+    height:1000;
+    background-color: #C9DBDA;
+}
+.footer{
+    height:30vh;
+    background-color: #DBE2F4;
+}
+.button{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150vh;
+}
+
+.intro{/*This will set the text for the home page*/
+    font-size: 30px;
+}
+.column{
+    float: left;
+    width:33%;
+    display:table;
+}
+.flex{ /*Allowing text to sit next to eachother*/
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: serif;
+    padding: 5px;
+}
+.why{/*This links with the home page*/
+    font-size: 30px;
+    text-align: center;
+    font-family: serif;
+}
+.contact{
+    font-size: 20px;
+}
+.contact2{
+    font-size: 20px;
+}
+.main2{
+    height: 450vh;
+    background-color: #C9DBDA; 
+}
+.email{
+    font-size: 25px;
+}
+#contactId{
+    font-size: 30px;
+    text-align: center;
+    font-family: serif;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-family: serif;
+}
+.test{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+    font-size: 60px;
+    text-align: center;
+    font-family: serif;
+}
+.priceList{/*This is for the pricing page setting the font sizes*/
+    font-size: 40px;
+}
+.pricing{
+    font-size: 40px;
+    text-align: center;
+    font-family: serif;
+}
+.container{
+    padding: 2px 16px;
+    height:40%;
+    text-align: center;
+    font-family: serif;
+}
+.cards{ /*This is for the services page that sets the cards*/
+    background-color: white;
+    box-shadow: 0 4px 8px 0;
+    height:50vh;
+    margin: auto;
+    width: 40%;
+    padding: 5px;
+}
+.headerLogo{
+    text-align: center;
+    height: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logoF{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.textF{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){ /*Making the wedsite also for mobiles */
+    .main{
+        background-color:#C9DBDA;
+        width:1450px;
+        height:350vh;
+    }
+    .header{
+        width:1450px;
+    }
+    .button{
+        width:100%;
+        text-align: center;
+        color:black;
+        font-size: 50px;
+        height: 10vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main2{
+        width: 1450px;
+        height: 4500px;
+    }
+    .talking{
+        display: grid;
+        grid-template-columns: 3fr,0,0,0;
+        padding:10px;
+        width:1000px;
+        height:100vh;
+    }
+    .friends{
+        width:100%;
+        height:120vh;
+    }
+    .testingImg{
+        height:1400px;
+        width:900px;
+    }
+    .test{
+        font-size: 30px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+        font-family: serif;
+        padding: 5px;
+    }
+    .cards{
+        width:700px;
+        height:500px;
+        font-size: 30px;
+    }
+    .footer{
+        height:200px;
+        width:1450px;
+
+    }
+    .contact{
+        word-wrap: break-word;
+    }
+    .dropdown{
+        display:inline-block;
+    }
+    .content{
+        min-width: 160px;
+        position: absolute;
+        text-align: center;
+
+    }
+    .pricing{
+        font-size: 90px;
+    }
+    .intro{
+        font-size: 60px;
+    }
+    .why{
+        font-size: 40px;
+    }
+
+
+
+
+}
